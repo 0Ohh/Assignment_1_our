@@ -1,19 +1,29 @@
-#mainBody {
-    margin:0 auto;
-    position: absolute;
-    width: 1000px;
-    display: flex;
-    justify-content: center;
+.heading1 {
+    text-align: center;
+    color: #4a7bcc;
+    font-size: 40px;
 }
-.paragraph {
-    color: blue;
+
+.image {
+    width: 220px;
+    /*margin: 10px;*/
+}
+
+.image:hover {
+    box-shadow: 0 0 9px 4px #4d4f51;
+    border-radius: 8px;
+    /*margin: 5px;*/
+    /*width: 230px;*/
+}
+
+#mainBody {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
 }
 
 #imagesGrid {
-    border: 2px dashed black;
-<<<<<<< HEAD
-}
-=======
+    margin: auto;
+    border: 2px black;
 }
 
->>>>>>> 51c00bef1c064647053d72fcc64597d70b0bd859
